@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;    
 }
+
+/* debug */
+header {
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+}
+.jumbotron {
+    width: 100%;
+    height: 600px;
+    background-color: green;
+}
+section {
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    background-color:lightcoral;
+}
+/* fine debug */
