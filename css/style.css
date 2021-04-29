@@ -121,3 +121,10 @@ h1.first-title {
 #appview {
     position: absolute;
 }
+#btn-jumbo {
+    margin-top: 3%;
+}
+.nb {
+    font-size: 15px;
+    margin: 15px;
+}
