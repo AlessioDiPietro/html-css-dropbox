@@ -20,6 +20,9 @@ body {
 h2 {
     font-size:40px;
 }
+li {
+    
+}
 /* debug */
 
 /* .container {
@@ -86,8 +89,8 @@ header .container {
 }
 
 nav li {
-    display: inline-block;
     margin: 0 30px;
+    display: inline-block;
 
 }
 #btn-header {
@@ -98,7 +101,7 @@ li a {
     color:black;
     text-transform: capitalize;
 }
-li:hover {
+nav li:hover {
     border-bottom: 3px solid black;
 }
 
@@ -115,7 +118,7 @@ li:hover {
 }
 h1.first-title {
     font-size: 50px;
-    margin-bottom: 4%;
+    margin-bottom: 10%;
     
     
 }
@@ -148,6 +151,7 @@ section {
 .piano-business input {
     margin: 5% 0 ;
 }
+/* box piano business*/
 .box-opzioni {
     margin: auto;
     width: 100%;
@@ -161,4 +165,17 @@ section {
 }
 .opzione2 {
     margin: 0 6%
+}
+.box-title {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 3%;
+    text-transform: capitalize;
+}
+.info-box li *{
+    text-decoration: none;
+    margin-left: 7%;
+}
+.info-box li:first-child {
+    font-size: 22px;
 }
