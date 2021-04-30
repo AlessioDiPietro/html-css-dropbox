@@ -37,24 +37,24 @@ li {
 /* header {
     width: 100%;
     height: 90px;
- } */
- /* .jumbotron {
-     background-color: green;
-    } */
+} */
+/* .jumbotron {
+    background-color: green;
+} */
     main section {
+        /* height: 2000px; */
+        border: 2px solid black;
+        background-color:lightcoral;
+    }
+    footer {
         width: 100%;
-    height: 2000px;
-    border: 2px solid black;
-    background-color:lightcoral;
-}
-footer {
-    width: 100%;
-    height: 400px;
-    background-color:darkslategray;
-}
-
-.box {
-    background-color: aquamarine;
+        height: 400px;
+        background-color:darkslategray;
+    }
+    
+    .box {
+        background-color: aquamarine;
+        height: 830px;
 }
 /* fine debug */
 
@@ -151,11 +151,14 @@ h1.first-title {
 
 section {
     width: 100%;
-    padding:10% 20%;
-    margin: 70px 0; 
+    padding:0 20%; 
+    margin: 100px 0;
 }
 
 /* box piano business*/
+.piano-business .contenuto {
+    margin-top: 200px;
+}
 .piano-business input {
     margin: 5% 0 ;
 }
@@ -171,7 +174,6 @@ section {
 .box {
     float: left;
     width: calc(100% / 3 - 4%);
-    height: 830px;
     border: 1px solid black;
 }
 .opzione2 {
