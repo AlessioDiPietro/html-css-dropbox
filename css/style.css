@@ -289,5 +289,8 @@ section {
 
 /* sezione operazioni */
 .spiegazione2 {
-    margin: 0 6% ;
+    margin:0 6% ;
+}
+.prima-riga {
+    margin-bottom: 20px;
 }
