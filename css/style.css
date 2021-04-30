@@ -52,7 +52,6 @@ footer {
 
 .box {
     background-color: aquamarine;
-    /* height: 50%; */
 }
 /* fine debug */
 
@@ -165,6 +164,7 @@ section {
 .box {
     float: left;
     width: calc(100% / 3 - 4%);
+    height: 830px;
     border: 1px solid black;
 }
 .opzione2 {
@@ -174,7 +174,7 @@ section {
     width: 100%;
     text-align: center;
     border-bottom: 1px solid black;
-    padding: 3%;
+    padding: 4%;
     text-transform: capitalize;
 }
 .info-box {
@@ -213,6 +213,9 @@ section {
     border-bottom: 1px solid #637381;
     padding: 25px 0;
 }
+#oppure a {
+    color: blue;
+}
 .highlights {
     padding:25px 20px;
 }
@@ -221,6 +224,8 @@ section {
 }
 .checkpoint li {
     list-style: none;
+    font-size: 17px;
+    margin:10px 0;
 }
 .checkpoint ul li::before {
     content: '\2713';
