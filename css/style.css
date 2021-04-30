@@ -40,7 +40,7 @@ li {
 } */
 main section {
     width: 100%;
-    height: 300%;
+    height: 400%;
     border: 2px solid black;
     background-color:lightcoral;
 }
@@ -166,24 +166,25 @@ section {
     float: left;
     width: calc(100% / 3 - 4%);
     border: 1px solid black;
-
 }
 .opzione2 {
     margin: 0 6%
 }
 .box-title {
+    width: 100%;
     text-align: center;
     border-bottom: 1px solid black;
     padding: 3%;
     text-transform: capitalize;
 }
 .info-box {
-    padding: 20px;
+    /* padding: 20px; */
 }
 .info-box li {
     font-size: 17px;
     list-style: none;
     margin: 10px 0;
+    padding:3px 20px;
 }
 .info-titolo li:first-child {
     font-size: 22px;
@@ -197,7 +198,31 @@ section {
 .info-box .info-dati li:last-child {
     margin-bottom: 45px;
 }
-#btn-prova {
+.prova-gratis {
     width: 100%;
+    margin-left: 13%;
+}
+#btn-prova {
     text-align: center;
+}
+#oppure {
+    margin: 20px 20px;
+    font-size: 15px;
+}
+#oppure span {
+    border-bottom: 1px solid #637381;
+    padding: 25px 0;
+}
+.highlights {
+    padding:25px 20px;
+}
+.highlights-titolo {
+    margin-bottom: 15px;;
+}
+.checkpoint li {
+    list-style: none;
+}
+.checkpoint ul li::before {
+    content: '\2713';
+    color: blue;
 }
