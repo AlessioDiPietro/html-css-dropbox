@@ -144,14 +144,19 @@ h1.first-title {
 }
 
 /* main */
+
 section {
     width: 100%;
     padding:10% 20%;  
 }
+
+/* box piano business*/
 .piano-business input {
     margin: 5% 0 ;
 }
-/* box piano business*/
+.piano-business label{
+    margin-right: 10px;
+}
 .box-opzioni {
     margin: auto;
     width: 100%;
@@ -172,10 +177,18 @@ section {
     padding: 3%;
     text-transform: capitalize;
 }
-.info-box li *{
-    text-decoration: none;
-    margin-left: 7%;
+.info-box li {
+    font-size: 17px;
+    margin: 15px 30px;
+    list-style: none;
 }
-.info-box li:first-child {
+.info-titolo li:first-child {
     font-size: 22px;
+    margin-top: 20px;
 }
+.info-box .info-titolo li:last-child {
+    color: #637381;
+    font-style: italic;
+    margin-bottom: 45px;
+}
+    .info-box li 
