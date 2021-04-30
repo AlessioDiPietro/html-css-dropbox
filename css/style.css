@@ -63,7 +63,7 @@ li {
     
     .box {
         background-color: aquamarine;
-        height: 830px;
+        /* height: 830px; */
 }
 /* fine debug */
 
@@ -187,7 +187,10 @@ section {
     border: 1px solid black;
 }
 .opzione2 {
-    margin: 0 6%
+    margin: 0 6%;
+}
+.opzione1, .opzione2, .opzione3 {
+    height: 830px;
 }
 .box-title {
     width: 100%;
@@ -282,4 +285,9 @@ section {
 }
 .testo-contatto p {
     margin-bottom: 40px;
+}
+
+/* sezione operazioni */
+.spiegazione2 {
+    margin: 0 6% ;
 }
