@@ -52,6 +52,7 @@ footer {
 
 .box {
     background-color: aquamarine;
+    /* height: 50%; */
 }
 /* fine debug */
 
@@ -164,9 +165,8 @@ section {
 .box {
     float: left;
     width: calc(100% / 3 - 4%);
-    height: 50%;
     border: 1px solid black;
-    
+
 }
 .opzione2 {
     margin: 0 6%
@@ -177,10 +177,13 @@ section {
     padding: 3%;
     text-transform: capitalize;
 }
+.info-box {
+    padding: 20px;
+}
 .info-box li {
     font-size: 17px;
-    margin: 15px 30px;
     list-style: none;
+    margin: 10px 0;
 }
 .info-titolo li:first-child {
     font-size: 22px;
@@ -191,4 +194,10 @@ section {
     font-style: italic;
     margin-bottom: 45px;
 }
-    .info-box li 
+.info-box .info-dati li:last-child {
+    margin-bottom: 45px;
+}
+#btn-prova {
+    width: 100%;
+    text-align: center;
+}
