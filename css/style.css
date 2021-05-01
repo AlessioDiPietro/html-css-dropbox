@@ -33,6 +33,11 @@ body {
 .link-nero:hover {
     text-decoration: none;
 }
+.box {
+    width: calc(100% / 3 - 4%);
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
 h2 {
     font-size:40px;
 }
@@ -57,20 +62,20 @@ p {
 /* .jumbotron {
     background-color: green;
 } */
-    main section {
-        height: 2000px;
-        border: 2px solid black;
-        background-color:lightcoral;
-    }
-    footer {
-        width: 100%;
-        height: 400px;
-        background-color:darkslategray;
-    }
+main section {
+    height: 2000px;
+    border: 2px solid black;
+    background-color:lightcoral;
+}
+footer {
+    width: 100%;
+    height: 400px;
+    background-color:darkslategray;
+}
     
-    .box {
-        background-color: aquamarine;
-        height: 830px;
+.box {
+    background-color: aquamarine;
+    height: 830px;
 }
 /* fine debug */
 
@@ -187,16 +192,12 @@ section {
     margin: auto;
     width: 100%;
 }
-.box {
-    width: calc(100% / 3 - 4%);
-    border: 1px solid black;
-    margin-bottom: 40px;
-}
 .opzione2 {
     margin: 0 6%;
 }
 .opzione1, .opzione2, .opzione3 {
     height: 830px;
+    border: 1px solid black;
 }
 .box-title {
     width: 100%;
@@ -299,6 +300,9 @@ section {
 }
 .spiegazione2 {
     margin:0 6% ;
+}
+.prima-riga .box, .seconda-riga .box {
+    border: none;
 }
 .prima-riga .box img, .seconda-riga .box img {
     width: 100%;
