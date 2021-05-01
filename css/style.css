@@ -1,11 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;  
 }
 body {
     font-size: 18px;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    
 }
 .btn {
     padding: 7px 25px;
@@ -26,11 +27,17 @@ body {
 .btn:hover {
     background-color: rgb(233, 233, 233);
 }
+.link-nero {
+    color: black;
+}
+.link-nero:hover {
+    text-decoration: none;
+}
 h2 {
     font-size:40px;
 }
-li {
-    
+p {
+    line-height: 1.6;
 }
 /* debug */
 
@@ -63,7 +70,7 @@ li {
     
     .box {
         background-color: aquamarine;
-        /* height: 830px; */
+        height: 830px;
 }
 /* fine debug */
 
@@ -136,7 +143,6 @@ h1.first-title {
 }
 .jumbotron p {
     width: 25%;
-    line-height: 1.6;
     display: inline-block;
     margin-bottom: 2%;
 }
@@ -182,9 +188,9 @@ section {
     width: 100%;
 }
 .box {
-    float: left;
     width: calc(100% / 3 - 4%);
     border: 1px solid black;
+    margin-bottom: 40px;
 }
 .opzione2 {
     margin: 0 6%;
@@ -288,9 +294,18 @@ section {
 }
 
 /* sezione operazioni */
+.operazioni-titolo {
+    margin-bottom: 60px ;
+}
 .spiegazione2 {
     margin:0 6% ;
 }
-.prima-riga {
-    margin-bottom: 20px;
+.prima-riga .box img, .seconda-riga .box img {
+    width: 100%;
+}
+.testo-spiegazione h3 {
+    margin: 30px 0;
+}
+.testo-spiegazione p span {
+    font-weight:bold ;
 }
