@@ -75,8 +75,8 @@ footer {
     background-color: aquamarine;
     height: 830px;
 } */
-.colonna {
-    height: 500px;
+/* .colonna { */
+    /* height: 500px; */
     /* border: 1px solid red; */
 }
 /* fine debug */
@@ -341,7 +341,9 @@ section {
 }
 .colonna {
     width: calc(100% / 3);
+    height: 510px;
 }
+/* colonne laterali */
 .box-marchio {
     height: calc(100% / 2);
     width: calc(100% / 2);
@@ -378,4 +380,18 @@ section {
 }
 .azienda8 {
     background-color: #ffd830;
+}
+/* colonna centrale */
+.colonna.centro {
+    background-color: #f5f5f5;
+    padding: 70px 40px;
+}
+.logo-selez {
+    width: 140px;
+}
+.colonna.centro p {
+    margin: 100px 0;
+}
+#nome {
+    font-size: small;
 }
