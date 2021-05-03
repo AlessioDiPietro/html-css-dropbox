@@ -316,3 +316,10 @@ section {
 }
 
 /* sezione partnership */
+.partnership-titolo {
+    width: 60%;
+}
+.partnership-titolo a {
+    line-height: 60px;
+    color: blue;
+}
