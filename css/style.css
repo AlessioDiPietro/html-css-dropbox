@@ -22,10 +22,10 @@ body {
     text-decoration: none;
 }
 .btn:hover {
-    opacity: 0.7;
+    background-color:#cbdeff;
 }
-.btn:hover {
-    background-color: rgb(233, 233, 233);
+.btn-w:hover {
+    background-color:rgb(241, 240, 240);
 }
 .link-nero {
     color: black;
@@ -394,4 +394,13 @@ section {
 }
 #nome {
     font-size: small;
+}
+.partnership-footer {
+    background-color: #b4d0e7;
+    padding: 0% 20%;
+}
+.partnership-footer h2 {
+}
+.partnership-footer a {
+    border: none;
 }
