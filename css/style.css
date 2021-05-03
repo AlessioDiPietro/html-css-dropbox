@@ -61,8 +61,8 @@ p {
     background-color: green;
 } */
 main section {
-    height: 1500px;
-    border: 2px solid black;
+    /* height: 1500px;
+    border: 2px solid black; */
     background-color:lightcoral;
 }
 footer {
@@ -174,7 +174,7 @@ h1.first-title {
 section {
     width: 100%;
     padding:0 20%; 
-    margin: 100px 0;
+    margin: 125px 0;
 }
 
 /* box piano business*/
@@ -333,6 +333,7 @@ section {
 .partnership-titolo {
     width: 70%;
     padding: 0 20%;
+    margin-top: 70px;
 }
 .partnership-titolo a {
     margin: 30px 0;
@@ -385,6 +386,7 @@ section {
 .colonna.centro {
     background-color: #f5f5f5;
     padding: 70px 40px;
+    overflow-y: auto;
 }
 .logo-selez {
     width: 140px;
@@ -410,13 +412,10 @@ section {
     padding: 50px 0;
     border-bottom: solid 1px grey;
 }
-.box-domande ul{
-    
 
-}
 .box-domande li{
     list-style: none;
-    padding: 25px 0;
+    line-height: 80px;
     border-bottom: solid 1px grey;
     width: 100%;
     
@@ -424,4 +423,15 @@ section {
 .box-domande ul li i{
     float: right;
     font-size: xx-large;
+    margin-right: 30px;
+    line-height: 80px;
+}
+.openit {
+    display: none;
+    width: 75%;
+    color: lightgray;
+    margin: 10px 0;
+}
+.box-domande ul li:active .openit {
+    display: block ;
 }
