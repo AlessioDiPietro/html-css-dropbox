@@ -303,7 +303,7 @@ section {
 }
 .prima-riga .box, .seconda-riga .box {
     border: none;
-    height: 600px;
+    min-height: 600px;
 }
 .prima-riga .box img, .seconda-riga .box img {
     width: 100%;
@@ -314,3 +314,5 @@ section {
 .testo-spiegazione p span {
     font-weight:bold ;
 }
+
+/* sezione partnership */
