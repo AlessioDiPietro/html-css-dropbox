@@ -173,7 +173,7 @@ h1.first-title {
 section {
     width: 100%;
     padding:0 20%; 
-    margin: 125px 0;
+    /* margin: 125px 0; */
 }
 
 /* box piano business*/
@@ -289,6 +289,9 @@ section {
 }
 
 /* sezione contatto */
+.contatto {
+    margin: 150px 0;
+}
 .img-contatto {
     width: 50%;
     display: inline-block;
@@ -402,7 +405,6 @@ section {
 .partnership-footer {
     background-color: #b4d0e7;
     padding: 7% 20%;
-    margin-top: -125px;
 }
 .partnership-footer h2 {
     display: inline-block;
@@ -414,6 +416,9 @@ section {
 }
 
 /* sezione faq */
+.faq {
+    margin: 130px 0;
+}
 .faq-titolo  {
     padding: 50px 0;
     border-bottom: solid 1px rgb(226, 224, 224);
@@ -465,4 +470,13 @@ footer {
 }
 .link-utili .colonna li a {
     color: white;
+}
+.lingua {
+    margin: -100px 0;
+}
+.lingua a {
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 4px;
 }
