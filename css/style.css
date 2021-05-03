@@ -129,7 +129,12 @@ li a {
 nav li:hover {
     border-bottom: 3px solid black;
 }
-
+#chat {
+    width: 100px;
+    position: fixed;
+    right: 2vh;
+    bottom: 2vh;
+}
 /* jumbotron */
 
 .jumbotron {
@@ -171,9 +176,7 @@ h1.first-title {
 /* main */
 
 section {
-    width: 100%;
     padding:0 20%; 
-    /* margin: 125px 0; */
 }
 
 /* box piano business*/
@@ -470,13 +473,14 @@ footer {
 }
 .link-utili .colonna li a {
     color: white;
+
 }
 .lingua {
-    margin: -100px 0;
+    padding: 50px 20%;
 }
 .lingua a {
-    color: white;
     border: 1px solid white;
     border-radius: 3px;
     padding: 4px;
+    color: rgb(158, 156, 156);
 }
