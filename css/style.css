@@ -75,7 +75,10 @@ footer {
     background-color: aquamarine;
     height: 830px;
 } */
-
+.colonna {
+    height: 500px;
+    border: 1px solid red;
+}
 /* fine debug */
 
 
@@ -170,7 +173,6 @@ h1.first-title {
 
 section {
     width: 100%;
-    
     padding:0 20%; 
     margin: 100px 0;
 }
@@ -227,6 +229,12 @@ section {
 .info-box .info-dati li:last-child {
     margin-bottom: 45px;
 }
+.info-dati i {
+    margin-left: -19px;
+}
+.info-dati li {
+    margin-left: 19px;
+}
 .prova-gratis {
     width: 100%;
     margin-left: 13%;
@@ -255,10 +263,13 @@ section {
     list-style: none;
     font-size: 17px;
     margin:10px 0;
+    padding-left: 19px;
+
 }
 .checkpoint ul li::before {
     content: '\2713';
     color: blue;
+    margin-left: -19px;
 }
 
 /* sezione enterprise */
@@ -316,10 +327,28 @@ section {
 }
 
 /* sezione partnership */
+.partnership {
+    padding: 0;
+}
 .partnership-titolo {
-    width: 60%;
+    width: 70%;
+    padding: 0 20%;
 }
 .partnership-titolo a {
-    line-height: 60px;
+    margin: 30px 0;
     color: blue;
+    display: inline-block;
+}
+.colonna {
+    width: calc(100% / 3);
+}
+.colonna img {
+    width: 50%;
+}
+.riquadri {
+    width: calc(100% / 2);
+    padding: 30px;
+}
+#deignit  {
+    width: 60%;
 }
