@@ -77,7 +77,7 @@ footer {
 } */
 .colonna {
     height: 500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 /* fine debug */
 
@@ -342,13 +342,40 @@ section {
 .colonna {
     width: calc(100% / 3);
 }
-.colonna img {
-    width: 50%;
-}
-.riquadri {
+.box-marchio {
+    height: calc(100% / 2);
     width: calc(100% / 2);
-    padding: 30px;
+    padding: 103px 116px;
 }
-#deignit  {
-    width: 60%;
+.box-marchio img {
+    width: 110%;
+    filter: invert(1);
+}
+#designit, #uf, #lp, #wb {
+    width: 140%;
+    margin-left: -25px;
+}
+.azienda1 {
+    background-color: #a2d39b;
+}
+.azienda2 {
+    background-color: #61082b;
+}
+.azienda3 {
+    background-color: #0093ce;
+}
+.azienda4 {
+    background-color: #ff1c1c;
+}
+.azienda5 {
+    background-color: #d5001f;
+}
+.azienda6 {
+    background-color: #b4d0e7;
+}
+.azienda7 {
+    background-color: #0d2481;
+}
+.azienda8 {
+    background-color: #ffd830;
 }
