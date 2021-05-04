@@ -60,15 +60,15 @@ p {
 /* .jumbotron {
     background-color: green;
 } */
-main section {
-    /* height: 1500px;
+/* main section {
+    height: 1500px;
     border: 2px solid black; */
-    /* background-color:lightcoral; */
-}
-footer {
+    /* background-color:lightcoral;
+} */
+/* footer {
     width: 100%;
-    /* height: 400px; */
-}
+    height: 400px;
+} */
 /* .link-utili .colonna {
     background-color: lime;
 } */
@@ -111,11 +111,9 @@ header .container {
 .float-sx {
     float: left;
 }
-
 nav li {
     margin: 0 30px;
     display: inline-block;
-    
 }
 #btn-header {
     margin:0 20px;
@@ -458,6 +456,7 @@ section {
 /* footer */
 footer {
     background-color: black;
+    width: 100%;
 }
 .link-utili .colonna {
     width: calc(100% / 5);
