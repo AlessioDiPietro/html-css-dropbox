@@ -123,9 +123,25 @@ li a {
     text-decoration: none;
     color:black;
     text-transform: capitalize;
+    position: relative;
 }
-nav li:hover {
+nav li:hover a {
     border-bottom: 3px solid black;
+    padding: 35px 0;
+}
+.layover {
+    display: none;
+    position: absolute;
+    background-color: rgb(226, 222, 222);
+    margin-top: 4px;
+    padding: 10px;
+    
+}
+.layover ul li {
+    display:block;
+}
+nav li:hover .layover {
+    display: block;
 }
 #chat {
     width: 100px;
